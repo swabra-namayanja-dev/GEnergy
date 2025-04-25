@@ -1,0 +1,6 @@
+{% extends 'GEnergyWebsite/base.html' %}
+{% block content %}
+    <h1>TPH Decline Over Time</h1>
+    <p>This chart shows simulated TPH levels across remediation sites.</p>
+    <img src="data:image/png;base64,{{ chart_base64 }}" alt="TPH Chart" style="max-width: 100%;">
+{% endblock %}

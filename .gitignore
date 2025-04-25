@@ -172,3 +172,50 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# React / Node / Tailwind
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.lock
+
+# Compiled CSS/JS
+*.css
+*.js
+*.map
+
+# React build
+/build/
+public/build/
+
+# JetBrains IDEs
+.idea/
+
+# Local configs
+*.local
+*.env.local

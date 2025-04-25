@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GEnergy Demo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <nav class="bg-green-700 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">GEnergy</h1>
+      <div class="space-x-4">
+        <a href="/" class="hover:underline">Home</a>
+        <a href="/dashboard/" class="hover:underline">TPH Dashboard</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto py-8">  
+    {% block content %}{% endblock %}
+  </div>
+
+  <footer class="bg-gray-200 text-gray-600 p-4 text-center">
+    © 2025 GEnergy. All rights reserved.
+  </footer>
+</body>
+</html>
